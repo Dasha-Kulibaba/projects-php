@@ -1,0 +1,81 @@
+* {
+   padding: 0;
+   margin: 0;
+   border: 0;
+}
+
+:focus,
+:active {
+   outline: none;
+}
+
+/* Зняття виділення при фокусі і активності */
+a:focus,
+a:active {
+   outline: none;
+}
+
+/* Зняття виділення для посилань при фокусі і активності */
+button {
+   cursor: pointer;
+}
+
+/* Вказання курсору для кнопок */
+button::-moz-focus-inner {
+   padding: 0;
+   border: 0;
+}
+
+/* Видалення внутрішнього відступу і границі для кнопок у Firefox */
+a,
+a:visited {
+   text-decoration: none;
+}
+
+/* Зняття підкреслення для посилань */
+a:hover {
+   text-decoration: none;
+}
+
+/* Вказання кольору тла для списку без маркера */
+ul li {
+   list-style: none;
+}
+
+/* Вертикальне вирівнювання зображень вверх */
+img {
+   vertical-align: top;
+}
+
+/* Вертикальне вирівнювання зображень вверх */
+input {
+   border: none;
+   background: none;
+   padding: 0;
+   margin: 0;
+   outline: none;
+   box-shadow: none;
+}
+
+textarea {
+   border: none;
+   background: none;
+   padding: 0;
+   margin: 0;
+   outline: none;
+   box-shadow: none;
+   resize: none;
+}
+
+button {
+   border: none;
+   background: none;
+   padding: 0;
+   margin: 0;
+   outline: none;
+   box-shadow: none;
+}
+
+a {
+   color: inherit;
+}
