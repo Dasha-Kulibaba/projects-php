@@ -1,0 +1,43 @@
+.qual {
+  @include fluid-text(28);
+
+  padding: var(--section-padding-y);
+
+  &__container {
+
+    &-list {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+      @include tablet {
+        flex-wrap: wrap;
+      }
+
+      &-block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 1.5vw;
+        padding: 2.3vw 2.3vw;
+        border-radius: var(--border-small);
+        box-shadow: var(--shadow-news);
+	     @include fluid-text(28,18);
+        &-title,  &-start, &-type,  &-link {
+          text-align: center;
+        }
+
+        &-text-bold {
+          font-weight: bold;
+          color: var(--color-text-dark-purple);
+        }
+
+        &-text-light {
+          color: var(--color-text-light-purple);
+        }
+      }
+    }
+  }
+}

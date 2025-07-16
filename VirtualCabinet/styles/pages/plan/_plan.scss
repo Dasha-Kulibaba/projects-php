@@ -1,0 +1,90 @@
+.calendar__container {
+  @include fluid-text(28,12);
+
+
+  padding: 20px;
+  overflow: auto;
+  scrollbar-width: thin;
+
+  @include laptop {
+
+  }
+}
+
+#month_name,#hidden_month_name {
+  text-align: center;
+  font-weight: bold;
+  	     @include fluid-text(48,28);
+  color: var(--color-text-dark-purple);
+  margin-bottom: 20px;
+}
+
+#calendar,#hidden_calendar {
+  display: grid;
+  grid-template-columns: 1.5fr repeat(5, 1fr);
+
+  align-items: start;
+}
+
+.week_day {
+  font-weight: bold;
+  background-color: var(--color-background-dark);
+  color: var(--color-text-light);
+  text-align: center;
+  padding: 10px;
+  margin: 4px;
+  border-radius: var(--border-small);
+}
+
+.week_name {
+  @include fluid-text(22);
+  background-color: var(--color-background-dark);
+  box-shadow: var(--shadow-files);
+  color: var(--color-text-light);
+  font-weight: bold;
+  text-align: center;
+  padding: 12px 8px;
+  margin: 4px;
+  border-radius: var(--border-small);
+  line-height: 1.4;
+  align-self: stretch;
+    position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+max-width: 100%;
+}
+
+.day,.not_current {
+  @include fluid-text(28);
+
+  background-color: var(--color-light);
+  padding: 8px;
+  margin: 4px;
+  min-height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: var(--border-small);
+  box-shadow: var(--shadow-files);
+  color: var(--color-text-dark);
+}
+
+.not_current {
+  color: #bbb;
+  background-color: #f4f4f4;
+}
+
+.subitem {
+@include fluid-text(24);
+
+  background-color: var(--color-background-dark);
+  color: var(--color-text-light);
+  padding: 5px 10px;
+  border-radius: var(--border-small);
+  text-align: center;
+  margin-top: 5px;
+    position: relative;
+  padding: 16px;
+}

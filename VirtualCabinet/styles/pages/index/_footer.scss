@@ -1,0 +1,18 @@
+.footer {
+  @include fluid-text(28,14);
+  text-wrap: balance;
+  background-color: var(--color-background-dark);
+
+  &__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--color-light);
+
+    &-title {
+      margin: var(--container-padding-x);
+      padding: var(--section-padding-y);
+    }
+  }
+}

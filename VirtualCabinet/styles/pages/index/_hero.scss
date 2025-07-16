@@ -1,0 +1,27 @@
+.hero {
+  @include fluid-text(38);
+
+  background-image: url("../images/system/hero_fon.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 775px;
+
+  &__container {
+    padding: var(--section-padding-y);
+    color: var(--color-light);
+    line-height: 44px;
+width: 100%;
+
+    &-title {
+      text-align: center;
+		  @include fluid-text(52, 28);
+		  line-height: 1.5;
+		  text-wrap: balance
+    }
+  }
+}

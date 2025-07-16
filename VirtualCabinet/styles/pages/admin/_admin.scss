@@ -1,0 +1,131 @@
+.autorize{
+	font-size: 2rem;
+	&__content{
+  display: flex;
+  width: 90vw;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+	}
+	&__block{
+		width: 100%;
+	}
+	&__buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+& form{
+	width: 80vw;
+	  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+  &>input, &>textarea,&>select{
+	width: 100%;
+  }
+  & button{
+	align-self: center ;
+  }
+}
+}
+
+.button{
+	&__item{
+			     @include fluid-text(36,24);
+  text-align: center;
+  color: var(--color-background-dark);
+  background-color: var(--color-background-main);
+  border-radius: 1rem;
+  padding: 0.7rem;
+    align-self: flex-start;
+	 justify-self: flex-start;
+  &:hover{
+  color: var(--color-light);
+  background-color: var(--color-background-dark);
+
+
+  }
+	}
+}
+
+.calendar{
+	&__head{
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  & #month_name {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+	}
+}
+
+.arrow {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.icon {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  z-index: 3;
+  background-color: var(--color-light);
+  padding: 2px;
+  border-radius: 2px;
+}
+
+.icon-edit {
+  right: 30px;
+  top: 2px;
+}
+.icon-del {
+  right: 8px;
+  top: 2px;
+}
+
+.add_event {
+  width: 3rem;
+  height: 3rem;
+  background-color: var(--color-text-light-purple);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.5rem;
+}
+
+.icon img,
+.add_event img {
+  height: 100%;
+}
+
+.psych_content {
+  grid-column: 2 / 6;
+  position: relative;
+}
+
+
+.admin{
+	&__icon{
+
+		height: 1.5rem;
+		width: 1.5rem;
+		& img{
+			height: 100%;
+		}
+	}
+	&__add{
+		display: inline-block;
+		margin: 20px 0;
+	}
+}
+
+.news__container-block-file-inner__admin{
+			display: flex;
+		gap: 12px;
+}

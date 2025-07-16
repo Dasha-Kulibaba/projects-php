@@ -1,0 +1,35 @@
+//Global
+@import "main/normalize",
+"main/fonts",
+"main/mixins",
+"main/media",
+"main/variables",
+"main/utils",
+"main/globals";
+
+//Home
+@import "pages/index/header/header",
+"pages/index/header/burger-button",
+"pages/index/header/mobile-overlay",
+"pages/index/header/cross-button",
+
+"pages/index/hero.scss",
+"pages/index/news.scss",
+"pages/index/footer.scss";
+
+//New teacher
+@import "pages/new/catalog.scss";
+
+//Qualification
+@import "pages/qual/qual.scss";
+
+//Plan
+@import "pages/plan/plan.scss";
+
+//Exhibition
+@import "pages/expo/expo.scss";
+
+//Atest
+@import "pages/atest/atest.scss";
+//Admin
+@import "pages/admin/admin.scss";

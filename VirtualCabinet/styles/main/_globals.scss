@@ -1,0 +1,30 @@
+body {
+  @include fluid-text(18, 12);
+
+  font-family: var(--font-family-base), sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.28;
+
+  color: var(--color-text-dark);
+  background-color: var(--color-background-main);
+}
+
+a,
+button,
+svg * {
+  transition-duration: var(--transition-duration);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1 {
+  @include fluid-text(36, 24);
+}
+
+.active-pointer {
+  font-weight: bold;
+}

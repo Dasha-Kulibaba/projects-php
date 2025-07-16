@@ -1,0 +1,120 @@
+$desktop-4k-above: 1920px; // 4K-екрани, телевізори, великі монітори
+$desktop-4k: 1919px;
+
+@mixin desktop-4k-above {
+  @media (min-width: $desktop-4k-above) {
+    @content;
+  }
+}
+
+@mixin desktop-4k {
+  @media (max-width: $desktop-4k) {
+    @content;
+  }
+}
+
+$desktop-fullhd-above: 1440px; // великі десктопи, широкоформатні ноутбуки
+$desktop-fullhd: 1439px;
+
+@mixin desktop-fullhd-above {
+  @media (min-width: $desktop-4k-above) {
+    @content;
+  }
+}
+
+@mixin desktop-fullhd {
+  @media (max-width: $desktop-4k) {
+    @content;
+  }
+}
+
+$laptop-above: 1200px; // стандартні ноутбуки, середні екрани
+$laptop: 1199px;
+
+@mixin laptop-above {
+  @media (min-width: $laptop-above) {
+    @content;
+  }
+}
+
+@mixin laptop {
+  @media (max-width: $laptop) {
+    @content;
+  }
+}
+
+$tablet-above: 992px; // планшети у горизонтальному положенні
+$tablet: 991px;
+
+@mixin tablet-above {
+  @media (min-width: $tablet-above) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (max-width: $tablet) {
+    @content;
+  }
+}
+
+$tablet-portrait-above: 768px; // планшети у вертикальному положенні
+$tablet-portrait: 769px;
+
+@mixin tablet-portrait-above {
+  @media (min-width: $tablet-portrait-above) {
+    @content;
+  }
+}
+
+@mixin tablet-portrait {
+  @media (max-width: $tablet-portrait) {
+    @content;
+  }
+}
+
+$mobile-above: 576px; // великі смартфони
+$mobile: 575px;
+
+@mixin mobile-above {
+  @media (min-width: $mobile-above) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media (max-width: $mobile) {
+    @content;
+  }
+}
+
+$mobile-small-above: 375px; // маленькі смартфони
+$mobile-small: 374px;
+
+@mixin mobile-small-above {
+  @media (min-width: $mobile-small-above) {
+    @content;
+  }
+}
+
+@mixin mobile-small {
+  @media (max-width: $mobile-small) {
+    @content;
+  }
+}
+
+
+// Hover/Touch підтримка
+@mixin hover {
+  @media (hover: hover) {
+    &:hover {
+      @content;
+    }
+  }
+
+  @media (hover: none) {
+    &:active  {
+      @content;
+    }
+  }
+}
