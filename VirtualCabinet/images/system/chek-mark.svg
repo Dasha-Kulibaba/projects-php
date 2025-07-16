@@ -1,0 +1,12 @@
+<svg width="48.000000" height="48.000000" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<pattern id="pattern_113_2330" patternContentUnits="objectBoundingBox" width="1.000000" height="1.000000">
+			<use xlink:href="#image113_233_0" transform="matrix(0.020833,0,0,0.020833,0,0)"/>
+		</pattern>
+		<image id="image113_233_0" width="48.000000" height="48.000000" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABHNCSVQICAgIfAhkiAAABCRJREFUaIHtl11sFFUYht9vZrdTghQD0eBvqG2jtvwoYgNpU7qtFhZZTJRFiSkULQ1CSPTKaGJYtF4avTASKpAmNaJFaEul1EriNrYWtEmjhVjYsgUximICtaLdduZ8XjTV/sz0zOxWtzHzJOfmnPe83/tlZ3bOAVxcXFxcXFySByU7gBnbLgVyAHqTBZ/TMfBSdXp40Eo74xoovxhIB6OdCLeNzPApSqFA1e2Nv5rplf8ynIytEf8tCvjEP+EBgFZwTLRWXFh3t9meGdPArog/TfV4mhl076RFUrLhQdvIozWeGdHArohfG/SodURYZqVhprsguBE8/rFPegMhDimDXk8NiIpkWiaaNXEu6Q38cKnzHQBBuZKHiJRSEHjsrOdfymWLir71IQY/L9MxswCwef/ChpMT15L2N7qtb912BvbaU/OL+9OPv222Im1gx9nCmwbmp3DNgpYbziJaUx71b2DGhyBSbcgrD9zT9KrV4pQNbO0tKQLRMTAbDGypzmypd5zWxJOBJgJpMi0B7x3M/LRiKo3lS1zaU5IuBH8kDDFbCE5jg4+WnSsJxZH5bzb3FC8xDD7CgjUhBCTjWPRybIfM0/QXeLYnb46uaF+CsWjiGoOqLv9o7Az7wrqT8FsiRRlCoI2ABVIxo1XRxJqpzkCjTGogxCGlt+fzOoDWW/ujWaPhjQfvax+QhgFQ2ltyKw8PtQHIkooZ3ULXV32wpO2aHe9JDWw6k/cCQG/JN9LXzEOBQ4tP/zyVLtj5yFxP6mArgKUyTwaiHoXy38/+4ieZdpRJ7wALfbEQOmTDEMMPG0ynnupecb+VeVlfYarq/a1BCH2pDb9fDDJWOwlv2gAMel03jAuGMCAbQhgLdd1o39C1vHCiTbA2qN7o//2QzrxK6mXoAzrr/sM5Hb1OwgMWL3HwbM48PeatI1CBHRNmDBGh/OiyrpqRCdATXQ9WASi3s1dVReDjB75pcRJ8FMvvgD+SqaX0zzoAxjO2nBhMRK/VL/92z+OdiyoBekW6hSEU8Kb63DO1DjKPY+ovMYMCX2VXApCGGbOnA4SV9qrzzsbc79617W1mYUe0tiOrjBn7iCglkWIT2NO08nwoURPbhzl/e0aRYD5CwM2JFgWwrzk/un0afJydRh9tvTML5DkOsPyDZFmQG+Ze+f7JwxthxOsx3s8hxSfvmC8U1BMh3+leZhFm0vxh30XpEcEucd0H/E2Z2p9afzWgPO1gWzeUWEHYd/16PDWtiP9Cw6CClnm7mbDbhjaqpqh5Yd/VK3HXsyDhG1neiTnPMdNeELxm6wxcVQXntz02cD7RWmZMy5Uy95PZq4m5FoS0sfMMvqYqVNyx9o+u6ahjxrTdiR+q0zJI5TeI2SeYUhniM6+qvnw6EItMVw0XFxcXF5f/HX8B/TIAcC4/4GkAAAAASUVORK5CYII="/>
+	</defs>
+	<rect id="chek-mark" width="48.000000" height="48.000000" fill="url(#pattern_113_2330)" fill-opacity="1.000000"/>
+</svg>

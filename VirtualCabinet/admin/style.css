@@ -1,0 +1,93 @@
+table {
+  width: 50%;
+}
+
+td {
+  padding: 4px;
+  text-align: center;
+}
+
+#calendar {
+  width: 50%;
+  display: grid;
+  grid-template-columns: 20% repeat(5, 16%);
+  justify-content: center;
+  align-content: flex-start;
+  gap: 4px;
+}
+
+#calendar > * {
+  border: 1px solid black;
+  padding: 2px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+
+#calendar > *:first-child {
+  border: none;
+}
+
+.week_name {
+  white-space: pre;
+  position: relative;
+  background-color: bisque;
+}
+
+.day {
+  color: blue;
+}
+
+.not_current {
+  color: gray;
+}
+
+.subitem {
+  background-color: bisque;
+  padding: 3px;
+  color: darkblue;
+  margin-bottom: 5px;
+  position: relative;
+}
+
+.psych_content {
+  grid-column: 2 / 6;
+  position: relative;
+}
+
+.calendar__head {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.arrow {
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.icon {
+  width: 8px;
+  height: 8px;
+}
+
+.icon-edit {
+  position: absolute;
+  right: 16px;
+  top: 2px;
+}
+.icon-del {
+  position: absolute;
+  right: 2px;
+  top: 2px;
+}
+
+.add_event {
+  width: 25%;
+  height: 25%;
+  background-color: burlywood;
+}
+img {
+  height: 100%;
+}
